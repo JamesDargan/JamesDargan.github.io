@@ -1,11 +1,11 @@
 title: James Dargan # your name (or website title) here
 logo: "/images/Circle_Profile.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <h2> Aspiring Data Scientist <br>
+  <h2> Aspiring Data Scientist
   <h4> Seattle, WA <br>
   <h4> Actively searching
   <a href="https://www.linkedin.com/in/jamesdargan/">
-  <img border="0" img src="/images/LI-In-Bug.png" width="20" height="20">
+  <img border="0" img src="/images/LI-In-Bug.png" width="25" height="25">
   </a><br>
   james.j.dargan@gmail.com
   <a href="mailto:james.j.dargan@gmail.com">
@@ -13,29 +13,20 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
 
 
-  </a>
-  <a href="https://www.linkedin.com/in/jamesdargan/">
-  <img border="0" img src="/images/LI-In-Bug.png" width="20" height="20">
-  </a>
-
-  <br><br>
-
-  <h3> Technical Skills:<br>
+  <h3> Technical Skills:
   <h5>
     Languages: Python, SQL, R <br>
     Statistics: PCA, experimental design, A/B testing, bayesian approach <br>
     Modeling: Regression, Trees, Random Forests, SVMs, Boosting, Neural Nets <br>
     <br><br>
 
-  <h3> Python Experience:<br>
+  <h3> Python Experience:
   <h5>
     Data Collecting: Pandas, Beautiful Soup, Requests, APIs <br>
     Visualization: Seaborn, Plotly, Dash <br>
-    Machine Larning: scikit-learn, keras, GridSearch, Pipeline <br>
-
-    Statistics: regression, PCA, experimental design, A/B testing, bayesian approach<br>
-    Machine Learning: Regression, Trees, Random Forests, SVMs, Boosting, Bagging, Neural Nets<br>
-  <br><br>
+    Machine Learning: scikit-learn, keras, GridSearch, Pipeline <br>
+    <br>
+    <br>
 
 
 
