@@ -1,38 +1,32 @@
 title: James Dargan
 logo: "/images/Circle_Profile.png?raw=true"
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <h2> Aspiring Data Scientist
-  <p>
-  Seattle, WA <br>
+  <h2 style="text-align:center"> Aspiring Data Scientist </h2>
+  <h5 style="text-align:center"> Seattle, WA </h5>
+  <br>
+  <h3>
   Actively searching
   <a href="https://www.linkedin.com/in/jamesdargan/">
-  <img border="0" img src="/images/LI-In-Bug.png" width="25" height="20">
-  </a><br>
-  james.j.dargan@gmail.com
+  <img border="0" img src="/images/LI-In-Bug.png" width="25" height="20"></a>
   <a href="mailto:james.j.dargan@gmail.com">
   <img border="0" img src="/images/gmail.png" width="30" height="20"></a>
-  <\p>
-  <br><br>
+  </h3><br>
 
-
-  <h4> Technical Skills:
-  <p>
+  <h4> Technical Skills </h4>
+  <p style="font-size:12px">
     Languages: Python, SQL, R <br>
     Statistics: Experimental Design, A/B Testing, Probability <br>
     Modeling: Regression, Regularization, PCA, Trees, Random Forests, SVMs, Boosting, Neural Nets <br>
   </p>
 
 
-  <h4> Python Experience:
-  <p>
+  <h4> Python Experience </h4>
+  <p style="font-size:12px">
     Data Collecting: Pandas, Beautiful Soup, Requests, APIs <br>
     Visualization: Seaborn, Plotly, Dash <br>
     Machine Learning: scikit-learn, keras, GridSearch, Pipeline <br>
   </p>
     <br>
-
-
-
-  <a href="https://github.com/JamesDargan">Explore my GitHub</a>
+    
 
 theme: jekyll-theme-minimal
