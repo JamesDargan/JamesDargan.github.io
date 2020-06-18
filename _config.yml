@@ -1,26 +1,37 @@
 title: James Dargan # your name (or website title) here
 logo: "/images/Circle_Profile.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <h3> Aspiring Data Scientist <br>
-  <h4> Seattle, WA <br>
+  <h1> Aspiring Data Scientist <br>
+  <h2> Seattle, WA <br>
 
-  Actively searching.
+
   </a>
   <a href="https://www.linkedin.com/in/jamesdargan/">
-  <img border="0" img src="/images/LI-In-Bug.png" width="40" height="40">
+  <img border="0" img src="/images/LI-In-Bug.png" width="20" height="20">
   </a>
-
+  Actively searching.
   <br><br>
-  <h3> Technical Skills:<br>
-    Python: pandas, seaborn, plotly, dash, scikit-learn, keras<br>
+
+  <h2> Technical Skills:<br>
+    Languages: Python, SQL, R <br>
+    Statistics: PCA, experimental design, A/B testing, bayesian approach <br>
+    Modeling: Regression, Trees, Random Forests, SVMs, Boosting, Neural Nets <br>
+    <br><br>
+
+  <h2> Python Experience:<br>
+    Data Collecting: Pandas, Beautiful Soup, Requests, APIs <br>
+    Visualization: Seaborn, Plotly, Dash <br>
+    Machine Larning: scikit-learn, keras, GridSearch, Pipeline <br>
+
     Statistics: regression, PCA, experimental design, A/B testing, bayesian approach<br>
     Machine Learning: Regression, Trees, Random Forests, SVMs, Boosting, Bagging, Neural Nets<br>
   <br><br>
 
-  <h3> Contact Me:<br>
+  <h2> Contact Me:<br>
   <a href="mailto:james.j.dargan@gmail.com">
-  <img border="0" img src="/images/gmail.png" width="40" height="40">
+  <img border="0" img src="/images/gmail.png" width="30" height="20">
   james.j.dargan@gmail.com
+  <br><br>
 
   <a href="https://github.com/JamesDargan">
   </a>
