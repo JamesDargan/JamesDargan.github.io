@@ -15,15 +15,15 @@ description: > # your text below (remove <br> elements if you don't need line br
   <p style="font-size:12px">
     Languages: Python, SQL, R <br>
     Stats: Experiment Design, A/B Test, Probability <br>
-    Modeling: Regression, PCA, Trees, RFs, SVMs, Boosting, Neural Networks <br>
+    Modeling: Regression, PCA, Time Series, Trees, RFs, SVMs, Boosting, Neural Networks <br>
   </p>
 
 
   <h4> Python Experience </h4>
   <p style="font-size:12px">
-    Scrape: Beautiful Soup, Requests, APIs <br>
+    Scrape: BeautifulSoup, Requests, APIs <br>
     Visualization: Seaborn, Plotly, Dash <br>
-    Machine Learning: scikit-learn, keras <br>
+    Machine Learning: Scikit-Learn, Keras <br>
     Misc: Pandas, nltk, GridSearch, Pipeline
   </p>
 
