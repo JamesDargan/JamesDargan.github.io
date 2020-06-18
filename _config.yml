@@ -3,7 +3,6 @@ logo: "/images/Circle_Profile.png?raw=true"
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <h2 style="text-align:center"> Aspiring Data Scientist </h2>
   <h5 style="text-align:center"> Seattle, WA </h5>
-  <br>
   <h3>
   Actively searching
   <a href="https://www.linkedin.com/in/jamesdargan/">
@@ -15,18 +14,18 @@ description: > # your text below (remove <br> elements if you don't need line br
   <h4> Technical Skills </h4>
   <p style="font-size:12px">
     Languages: Python, SQL, R <br>
-    Statistics: Experimental Design, A/B Testing, Probability <br>
-    Modeling: Regression, Regularization, PCA, Trees, Random Forests, SVMs, Boosting, Neural Nets <br>
+    Stats: Experiment Design, A/B Test, Probability <br>
+    Modeling: Regression, PCA, Trees, RFs, SVMs, Boosting, Neural Networks <br>
   </p>
 
 
   <h4> Python Experience </h4>
   <p style="font-size:12px">
-    Data Collecting: Pandas, Beautiful Soup, Requests, APIs <br>
+    Scrape: Beautiful Soup, Requests, APIs <br>
     Visualization: Seaborn, Plotly, Dash <br>
-    Machine Learning: scikit-learn, keras, GridSearch, Pipeline <br>
+    Machine Learning: scikit-learn, keras <br>
+    Misc: Pandas, nltk, GridSearch, Pipeline
   </p>
-    <br>
-    
+
 
 theme: jekyll-theme-minimal
