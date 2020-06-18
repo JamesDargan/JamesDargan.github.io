@@ -21,7 +21,7 @@ Utilized Python and Plotly to collect data from online sources and create intera
 Utilized Python and Stats Models to quantify the relationship between test participation rates and states averages, I demonstrate state rankings from these assessments misrepresent the relative quality of state education systems through the bias of student self-selection.
 
 ---
-[Modeling Impact of State Education System Features](/sample_page) <br>
+[Modeling Impact of State Education System Features]() <br>
 Incorporating state level spending per student, average class size, and average teacher salary as a proxy for teacher quality, I model how these affect state performance on college admissions tests after controlling for participation. I show failing to account for the selection bias produces drastically biased coefficients and lower explanatory power.
 
 ---
