@@ -1,10 +1,18 @@
 ## Creating Interactive Visualizations with Plotly
 
-**Project Description:** After collecting data on state averages on the SAT and ACT exams for the graduating classes of 2017 and 2018, I utilized Plotly to generate informative maps comparing these states. These maps hosted by plotly and accessible at the following links [][][Participation and Scores](https://chart-studio.plotly.com/~JamesDargan/12.embed).
+**Project Description:** After collecting data on state averages on the SAT and ACT exams for the graduating classes of 2017 and 2018, I utilized Plotly to generate informative maps comparing these states. These maps hosted by Plotly and accessible at the following links: <br>
+[SAT Rankings by State](https://chart-studio.plotly.com/~JamesDargan/1.embed)<br>
+[ACT Rankings by State](https://chart-studio.plotly.com/~JamesDargan/3.embed)<br>
+[Participation Rates and Average Scores](https://chart-studio.plotly.com/~JamesDargan/12.embed)<br>
+<br>
+**Medium Blog:**<br>
+[Visualizing SAT & ACT Averages](https://medium.com/@james.dargan/visualizing-sat-act-averages-2a4759f9684)
 
-### Write up found on Medium
 
-Se
+https://plotly.com/~JamesDargan/12/
+
+### IFrame
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~JamesDargan/12.embed"></iframe>
 
 ### Example of Participation Rate and Test Averages
 ---

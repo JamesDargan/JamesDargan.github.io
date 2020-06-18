@@ -4,19 +4,20 @@
 
 ### Exploring SAT and ACT State Averages
 
-[Visualizing State Differences ](/tests_part_1)
+
+
+[Visualizing State Differences ](/tests_part_1) <br>
 Utilized Python and Plotly to collect data from online sources and create interactive U.S. Maps to compare state averages and participation rates on the SAT and ACT exams.
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/part_and_score_by_state.png?raw=true"/>
 
 ---
-[Predicting State Averages](/sample_page)
+[Predicting State Averages](/sample_page)<br>
 Utilized Python and Stats Models to quantify the relationship between test participation rates and states averages, demonstrating state rankings from these assessments misrepresent the relative quality of state education systems through the mechanism of student self-selection.
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Modeling Impact of State Education System Features](/sample_page)
 Incorporating state level spending per student, average class size, and average teacher salary as a proxy for teacher quality, I model how these affect state performance on college admissions tests after controlling for participation. I show failing to account for the selection bias produces drastically biased coefficients and lower explanatory power.
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
 ---
 
 ### Classifying Subreddits through NLP
