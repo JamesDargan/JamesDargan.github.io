@@ -1,35 +1,31 @@
-## Portfolio
+## Selected Projects
 
 ---
 
-### Category Name 1 
+### Exploring SAT and ACT State Averages
 
-[Project 1 Title](/sample_page)
+[Visualizing State Differences ](/tests_part_1)
+Utilized Python and Plotly to collect data from online sources and create interactive U.S. Maps to compare state averages and participation rates on the SAT and ACT exams.
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Predicting State Averages](/sample_page)
+Utilized Python and Stats Models to quantify the relationship between test participation rates and states averages, demonstrating state rankings from these assessments misrepresent the relative quality of state education systems through the mechanism of student self-selection.
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Modeling Impact of State Education System Features](/sample_page)
+Incorporating state level spending per student, average class size, and average teacher salary as a proxy for teacher quality, I model how these affect state performance on college admissions tests after controlling for participation. I show failing to account for the selection bias produces drastically biased coefficients and lower explanatory power.
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-
 ---
 
-### Category Name 2
+### Classifying Subreddits through NLP
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
-
 
 
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+<!-- Remove above link if you don't want to attribute -->
