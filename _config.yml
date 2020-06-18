@@ -9,7 +9,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   </a><br>
   james.j.dargan@gmail.com
   <a href="mailto:james.j.dargan@gmail.com">
-  <img border="0" img src="/images/gmail.png" width="30" height="20">
+  <img border="0" img src="/images/gmail.png" width="30" height="20"></a>
   <br><br>
 
 
@@ -30,6 +30,6 @@ description: > # your text below (remove <br> elements if you don't need line br
 
 
 
-  <a href="https://github.com/JamesDargan">Explore My GitHub</a>
+  <a href="https://github.com/JamesDargan">Explore my GitHub</a>
 
 theme: jekyll-theme-minimal
