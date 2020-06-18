@@ -10,6 +10,7 @@ I measure the impact of student self-selection into participation on college pre
 **Related Medium Blogs:**<br>
 [Visualizing SAT & ACT Averages](https://medium.com/@james.dargan/visualizing-sat-act-averages-2a4759f9684)<br>
 [Participation Skews State Averages](https://medium.com/@james.dargan/participation-skews-state-averages-f68969371a01)<br>
+[Update Friday]
 
 
 [Visualizing State Differences ](pages/ACT-SAT/01_visualization.md) <br>
@@ -27,7 +28,6 @@ Incorporating state level spending per student, average class size, and average 
 ---
 
 ### Classifying Subreddits through NLP
-
 
 ---
 

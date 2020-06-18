@@ -1,30 +1,34 @@
-title: James Dargan # your name (or website title) here
-logo: "/images/Circle_Profile.png?raw=true" # your photo (or logo) here
+title: James Dargan
+logo: "/images/Circle_Profile.png?raw=true"
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <h2> Aspiring Data Scientist
-  <h4> Seattle, WA <br>
-  <h4> Actively searching
+  <p>
+  Seattle, WA <br>
+  Actively searching
   <a href="https://www.linkedin.com/in/jamesdargan/">
   <img border="0" img src="/images/LI-In-Bug.png" width="25" height="20">
   </a><br>
   james.j.dargan@gmail.com
   <a href="mailto:james.j.dargan@gmail.com">
   <img border="0" img src="/images/gmail.png" width="30" height="20"></a>
+  <\p>
   <br><br>
 
 
-  <h3> Technical Skills:
-  <h5>
+  <h4> Technical Skills:
+  <p>
     Languages: Python, SQL, R <br>
-    Statistics: PCA, experimental design, A/B testing, bayesian approach <br>
-    Modeling: Regression, Trees, Random Forests, SVMs, Boosting, Neural Nets <br>
-    <br>
+    Statistics: Experimental Design, A/B Testing, Probability <br>
+    Modeling: Regression, Regularization, PCA, Trees, Random Forests, SVMs, Boosting, Neural Nets <br>
+  </p>
 
-  <h3> Python Experience:
-  <h5>
+
+  <h4> Python Experience:
+  <p>
     Data Collecting: Pandas, Beautiful Soup, Requests, APIs <br>
     Visualization: Seaborn, Plotly, Dash <br>
     Machine Learning: scikit-learn, keras, GridSearch, Pipeline <br>
+  </p>
     <br>
 
 
