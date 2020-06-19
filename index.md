@@ -3,7 +3,7 @@
 ---
 ## Exploring SAT and ACT State Averages ([Repo](https://github.com/JamesDargan/ACT-SAT))
 
-I measure the impact of student self-selection into participation on college prep exams and explore the resulting bias introduced to state rankings based on state average scores using data scraped from various digest tables published by the NCES for the classes of 2017 and 2018. By incorporating case studies and analyzing changes between years, I demonstrate a causal connection between participation rates and state averages on the ACT and SAT. I produce a MLR with an adjusted R2 of 0.805 and mean absolute error of 0.68 when explaining 2017 ACT scores, which predicts 2018 scores with a mean absolute error of 0.75.
+I measure the impact of student self-selection into participation on college prep exams and explore the resulting bias introduced to state rankings based on state average scores using data scraped from various digest tables published by the NCES for the classes of 2017 and 2018. By incorporating case studies and analyzing changes between years, I demonstrate a causal connection between participation rates and state averages on the ACT and SAT. I produce a MLR with an adjusted R2 of 0.805 and mean absolute error of 0.68 points when explaining 2017 ACT scores, which predicts 2018 scores with a mean absolute error of 0.75 points.
 <br>
 
 **Related Medium Blogs:**<br>
