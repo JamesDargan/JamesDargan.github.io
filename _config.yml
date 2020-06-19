@@ -12,15 +12,13 @@ description: > # your text below (remove <br> elements if you don't need line br
   <img border="0" img src="/images/gmail.png" width="30" height="20"></a>
   </h3><br>
 
-  <h4> Python Experience </h4>
   <p style="font-size:12px">
     Scrape: BeautifulSoup, Requests, APIs <br>
     Visualization: Seaborn, Plotly, Dash <br>
     Machine Learning: Scikit-Learn, Keras <br>
     Misc: Pandas, nltk, GridSearch, Pipeline <br>
     <br>
-    Regression, PCA, Time Series, Trees, RFs, SVMs, Boosting, Neural Networks <br>
-
+    Regression, PCA, Time Series, Trees, RFs, SVMs, Boosting, Neural Networks
   </p>
 
 
