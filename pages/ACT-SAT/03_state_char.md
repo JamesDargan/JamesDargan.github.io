@@ -3,8 +3,8 @@
 **Project Description:** I collect state data on average class size, spending per student, and teacher salary to improve prediction accuracy of state average scores. I find the selection-bias affecting state SAT averages can lead to a flawed perception of how classroom characteristics impact student performance. Estimates of these features' coefficients change drastically after controlling for state participation rates. By including these additional features in a MLR model, I improve my adjusted R-square to 0.80 and reduce my mean absolute error to 0.71, a 20% reduction compared to the single variable model.
 <br><br>
 
-**Medium Blog:**<br>
-[Estimating Classroom Impact on SAT & ACT Averages]()
+**My Project Medium Blog:**<br>
+[Estimating Classroom Impact on State Averages](https://medium.com/@james.dargan/estimating-classroom-impact-on-sat-act-state-averages-b91891cae252)
 <br><br>
 
 

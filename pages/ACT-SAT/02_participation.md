@@ -3,7 +3,7 @@
 **Project Description:** I utilized Python and fundamental linear regression methods to demonstrate a strong negative association between a state's participation rate on the SAT/ACT and its average score.
 <br><br>
 
-**Medium Blog:**<br>
+**My Project Medium Blogs:**<br>
 [Participation Differences Skew State Averages](https://medium.com/@james.dargan/participation-skews-state-averages-f68969371a01)<br>
 [Opt-In Bias Drives SAT & ACT State Averages](https://medium.com/@james.dargan/self-selection-drives-state-averages-8e5b53be0c17)<br>
 <br>

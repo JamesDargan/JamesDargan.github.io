@@ -2,7 +2,7 @@
 
 **Project Description:** After collecting data on state averages on the SAT and ACT exams for the graduating classes of 2017 and 2018, I utilized Plotly to generate informative maps comparing these states.
 <br><br>
-**Medium Blog:**<br>
+**My Project Medium Blog:**<br>
 [Visualizing SAT & ACT Averages](https://medium.com/@james.dargan/visualizing-sat-act-averages-2a4759f9684)
 <br><br>
 **Plotly Homes:**<br>
