@@ -1,4 +1,4 @@
-## Creating Interactive Visualizations with Plotly
+## Interactive Visualizations with Plotly ([Repo](https://github.com/JamesDargan/ACT-SAT))
 
 **Project Description:** After collecting data on state averages on the SAT and ACT exams for the graduating classes of 2017 and 2018, I utilized Plotly to generate informative maps comparing these states.
 <br><br>
