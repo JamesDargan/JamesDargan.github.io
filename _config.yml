@@ -13,12 +13,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   </h3><br>
 
   <p style="font-size:12px">
-    Scrape: BeautifulSoup, Requests, APIs <br>
-    Visualization: Seaborn, Plotly, Dash <br>
-    Machine Learning: Scikit-Learn, Keras <br>
-    Misc: Pandas, nltk, GridSearch, Pipeline <br>
-    <br>
-    Regression, PCA, Time Series, Trees, RFs, SVMs, Boosting, Neural Networks
+  Pandas, BeautifulSoup, Requests, Plotly, Dash, nltk, Sklearn, Keras <br>
+  Regression, PCA, Time Series, Trees, RFs, SVMs, Boosting, Neural Networks
   </p>
 
 
