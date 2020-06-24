@@ -4,10 +4,10 @@
 <br><br>
 
 **My Medium Blogs on This Project:**<br>
-[Visualizing SAT & ACT Averages](https://medium.com/@james.dargan/visualizing-sat-act-averages-2a4759f9684)<br>
-[Participation Rates Skew State Averages](https://medium.com/@james.dargan/participation-skews-state-averages-f68969371a01)<br>
-[Opt-In Bias Drives SAT & ACT State Averages](https://medium.com/@james.dargan/self-selection-drives-state-averages-8e5b53be0c17)<br>
-[Estimating Classroom Impact on State Averages](https://medium.com/@james.dargan/estimating-classroom-impact-on-sat-act-state-averages-b91891cae252)<br>
+[Visualizing SAT & ACT Averages](https://medium.com/@james.dargan/visualizing-sat-act-averages-2a4759f9684){:target="\_blank"}<br>
+[Participation Rates Skew State Averages](https://medium.com/@james.dargan/participation-skews-state-averages-f68969371a01){:target="\_blank"}<br>
+[Opt-In Bias Drives SAT & ACT State Averages](https://medium.com/@james.dargan/self-selection-drives-state-averages-8e5b53be0c17){:target="\_blank"}<br>
+[Estimating Classroom Impact on State Averages](https://medium.com/@james.dargan/estimating-classroom-impact-on-sat-act-state-averages-b91891cae252){:target="\_blank"}<br>
 <br><br>
 
 
