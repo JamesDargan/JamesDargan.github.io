@@ -29,5 +29,5 @@ By treating state level policy changes which dramatically altered participation 
 **Why It Matters:** When reporting relative rankings of states on the SAT or ACT as measured by average student exam score, blogs and news sites fail to recognize these ratings derive primarily from differences in participation rates rather than any underlying features of states' education system or quality of students. States with extremely high or low averages should not be praised or criticized without additional evidence given how biased these rankings are.
 <br><br>
 
-Previous Project Page: [Visualizing State Differences ](pages/ACT-SAT/01_visualization.md)<br>
-Next Project Page: [Modeling Impact of State Education System Features](pages/ACT-SAT/03_state_char) <br>
+Previous Project Page: [Visualizing State Differences ](./01_visualization.md)<br>
+Next Project Page: [Modeling Impact of State Education System Features](./03_state_char) <br>

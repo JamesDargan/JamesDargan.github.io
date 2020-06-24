@@ -28,4 +28,4 @@ src="//plotly.com/~JamesDargan/1.embed"></iframe>
 src="//plotly.com/~JamesDargan/3.embed"></iframe>
 
 
-Next Project Page: [Predicting State Averages](../02_participation.md)<br>
+Next Project Page: [Predicting State Averages](./02_participation.md)<br>
