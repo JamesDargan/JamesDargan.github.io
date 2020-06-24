@@ -25,7 +25,7 @@ Teacher Salary: coefficient -3.31 becomes 1.07, p-value 0.01 becomes 0.19
 Due to its high correlation with all other features, I use Principal Components Regression to fit a full model. I find this model performs no better than an OLS model without this feature included. The PCA breakdown supports the conclusion this feature adds no independent value.
 
 
-**Full Linear Predictive Model** 
+**Full Linear Predictive Model**
 My full model with teacher salary and class size added increases the adjusted R-squared by 7 points compared to using participation rates alone, with all features statistically significant at the 99% confidence level. It predicts 2017 ACT state averages with a mean absolute error of 0.68 points, a 20% improvement compared to using participation rates alone. This model predicts 2018 ACT state averages with a mean absolute error of 0.75 points, which translates to an average error margin of 3.5% relative to the true 2018 state average. Out of 51 predictions, 35 fell within 5 percent of the true 2018 state average. The largest error missed by only 2.39 points, or 11.5 percent.
 
 <img src="assets/ACT_2017_Full_Model.png?raw=true"/>
@@ -33,4 +33,4 @@ My full model with teacher salary and class size added increases the adjusted R-
 **Why It Matters:** If a policy researcher naives treats test averages as representative of state education and fails to control for participation rates, the resulting analysis will produce invalid results and misleading conclusions. Any work with aggregate statistics must begin with investigating the data collection process and sources of bias that will skew these statistics.
 
 
-Previous Project Page: [Predicting State Averages](pages/ACT-SAT/02_participation.md)<br>
+Previous Project Page: [Predicting State Averages](./02_participation.md)<br>
