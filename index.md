@@ -42,6 +42,7 @@ I use pandas and missingno packages to identify missing values and inconsistent 
 I build an OLS model on selected and engineered features which delivers an R2 score of 0.967, a root mean squared error of 20,128, and mean absolute error of 9,777, which outperforms simple base models by 58% or more. I explore incorporating regularization and principal components into my linear model.
 
 
+[go](http://stackoverflow.com){:target="\_blank"}
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attribute -->
