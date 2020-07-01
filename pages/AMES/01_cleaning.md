@@ -10,7 +10,7 @@ I create a local library to house custom functions to automate visualization of 
 
 
 **Logic-based Imputation:**<br>
-I find 2 observations in training dataset with missing values for basement area or bathroom counts, which can be imputed based on other features indicating these observations do not have a basement.
+I find 2 observations in training dataset with missing values for basement area or bathroom counts, which can be imputed with certainty based on other features indicating these observations do not have a basement.
 <br>
 
 **Probable Class Imputation:**<br>

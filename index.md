@@ -18,11 +18,11 @@ I measure the impact of student self-selection into participation on college pre
 Utilized Python and Plotly to collect data from online sources and create interactive U.S. Maps to compare state averages and participation rates on the SAT and ACT exams.
 <img src="images/part_and_score_by_state.png?raw=true"/>
 
----
+
 [Predicting State Averages](pages/ACT-SAT/02_participation.md)<br>
 Utilized Python and Stats Models to quantify the relationship between test participation rates and states averages, I demonstrate state rankings from these assessments misrepresent the relative quality of state education systems through the bias of student self-selection.
 
----
+
 [Modeling Impact of State Education System Features](pages/ACT-SAT/03_state_char) <br>
 Incorporating state level spending per student, average class size, and average teacher salary as a proxy for teacher quality, I model how these affect state performance on college admissions tests after controlling for participation. I show failing to account for the selection bias produces drastically biased coefficients and lower explanatory power.
 
@@ -37,9 +37,38 @@ Provided with a variation of the classic AMES real estate dataset for a private 
 I use pandas and missingno packages to identify missing values and inconsistent variable totals. I proceed to  impute values for 30 observations across 10 features based on class probability estimation. I create a linear regression imputation model for lot frontage with an average margin of error of about 10%.
 
 
-
 [Regularization and PCA](pages/AMES/03_linear_models.md) <br>
 I build an OLS model on selected and engineered features which delivers an R2 score of 0.967, a root mean squared error of 20,128, and mean absolute error of 9,777, which outperforms simple base models by 58% or more. I explore incorporating regularization and principal components into my linear model.
+
+---
+
+## Reddit NLP Classification ([Repo](https://github.com/JamesDargan/Reddit_Classification){:target="\_blank"})
+
+Utilizing Reddit's Pushshift API, I collect posts and comments from the subreddits /r/pcgaming and /r/boardgames. I perform core NLP tasks, EDA of text content, and create a bag-of-words based predictive model to classify new posts with 98% accuracy.
+
+[Data Scrape and EDA](pages/Reddit/01_data_pred_eda.md)<br>
+I build a pair of functions to collect post content from Reddit through its API. I explore the text content and functional features of subreddit activity.
+
+
+[Bag-of-Words Models](pages/Reddit/02_models_text_comp.md)<br>
+I tokenize, lematize, and employ CountVectorizer and TFIDF to prepare my collected data. I then use Logistic Regression, Multinomial Naive-Bayes, and Support Vector Classifiers to predict post subreddit with over 90% accuracy. I then compare the accuracy and model optimization computational time for each model with increasing layers of text content.
+
+---
+
+## Flights Network Dashboard
+
+
+---
+
+## Image Classification ([MNIST_Repo](https://github.com/JamesDargan/MNIST){:target="\_blank"})
+
+[NMIST Convolutional NN](pages/MNIST/01_walkthrough.md) <br>
+I create a walkthrough notebook of creating a multilayer convolutional neural network for digit recognition. I demonstrate visualization of network architecture, activation layers on test data, and confusion matrices. I describe each layer added to a predictive model which scores 0.98775 accuracy on the Kaggle test set.
+
+---
+
+## Time Series
+
 
 
 ---

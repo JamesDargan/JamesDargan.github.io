@@ -1,7 +1,7 @@
 ## AMES Housing Regression ([Repo](https://github.com/JamesDargan/AMES))
 
 **Project Component:**
-I create a local library to house custom functions to automate visualization of various feature data types. I use pandas and missingno packages to identify missing values and inconsistent variable totals. I proceed to logically impute some missing values and create a linear regression imputation model for lot frontage.
+After cleaning the dataset and imputing missing values, I perform extensive EDA of various features. I proceed to derive many dummy variables from these features to either 1) isolate relevant distinction from within non-ordinal values, 2) bin ordinal features to capture meaningful layers, and 3) sum discrete counts to produce a linear relationship, 4) separate continuous variable by category identify to isolate divergent linear relationships with the target.
 <br><br>
 
 **My Project Medium Blogs:**<br>
@@ -9,36 +9,33 @@ I create a local library to house custom functions to automate visualization of 
 <br>
 
 
-**Logic-based Imputation:**<br>
-I find 2 observations in training dataset with missing values for basement area or bathroom counts, which can be imputed based on other features indicating these observations do not have a basement.
-<br>
+**Feature Transformations:**<br>
+ - Apply log transform to saleprice to create a more normally distributed target
+ - Apply log transform to area and length features to preserve linear relationship to target
+ - Add square of age since remodel to capture nonlinear relationship
 
-**Probable Class Imputation:**<br>
-I find a total of 28 observations containing missing values across 8 features. I single-value impute 7 categorical features and 1 continuous feature with probability > 90% based on class identity derived from related categorical features.
-<br>
+**Binning of Features**
+- Dummy over/under condition rating of 5 to capture level jump
+- Group irregular lot shapes to capture homogenous difference from regular lots
+- Round half-story structures down to whole due to low observation counts
+- Group all lesser electrical systems due to low observation counts
+- Group unpaved drives together due to low observation counts
+- Group functional components due to low observation counts
 
-**Multiple Linear Regression Imputation Model:**
-After extensive EDA and some logistic regression models, I find no evidence that these values are not missing at random. After performing EDA on features related to lot shape, size, and location, I create a regression imputation model for 490 observations missing a value for lot frontage (330 training, 160 test). My regression model imputes the log transform of lot frontage based on 5 features, which I then exponentiate to a value in feet.
-<br><br>
-Model R2 Score = 0.77 <br>
-Model Root Mean Squared Error = 14.32 <br>
-Model Median Absolute Error= 8.44$ <br>
-Imputation average % Error: 11.90% <br>
-<br>
-The avoid summary means that on average, our imputed values likely misrepresent the true missing value by 8.4 feet on average, which is an error margin of about 12% relative to the correct, unknown value. While less than ideal in accuracy, this imputation enables this feature to be included in our predictive model without dropping over 10% of our training data or specifying 2 separate models for observations with and without this value.
-<br><br>
+**Derived Dummy Features**
+- Create fence dummy from misc feature
+- Create adjacent major road dummy from conditions
+- Create adjacent railroad dummy from conditions
+- Create adjacent positive feature from conditions
+
+**Derived Continuous Features**
+- Sum all bathroom features to create smooth linear relationship
+- Separate attached and detached garage square footage
+- Square footage per room
+- Non-basement square footage per bedroom
+- Bathrooms per bedroom
+- Age since remodel at time of sale
 
 
-
-**Insight 1: Inconsistent square footage values**<br>
-A total of 40 observations (33 training, 7 test) have values for above-ground square footage that exceed the values for 1st floor and 2nd floor square footage. Exploring structural features, no consistent trend is found, including when exploring the hypotheses: 1) Houses of type 1.5 or 2.5 have offset levels not included in either 1st or 2nd floor, 2) Houses on uneven ground have added sf from either exposed basement or enclosed porches, which are already recorded separately.
-<br><br>
-**Insight 2: Low variance in most ratings**<br>
-Out of 9 features with ordinal qualitative ratings on scales 1-5, 4 ratings features assign 1 value to over or near 95% of observations in our training dataset. The heavy concentration of these ratings renders these features without value for predictive modeling purposes.
-<br><br>
-**Insight 3: Cyclical scale activity but stable prices**<br>
-Utilizing the sales date feature, I plot a cyclical trend in transactions annual with increased sales activity in spring and summer months. However, I do not find any trend in saleprice during our time interval.
-<br><br>
-
-**Why It Matters:** Detailed data cleaning ensures all features are consistent and values logical to avoid errors in the model building stages. In the provided AMES data, I found over 200 missing values across over 10 features, most of which were isolated occurrences. By correcting and imputing these missing values now, I avoid troubleshooting issues in my predictive models.
-<br><br>
+**Why It Matters:**
+Inputting high-quality features improves model performance. Some raw features collected on a scale may not be linearly related to the target, but instead have discrete jumps in average at certain points along the scale. Binning these values or creating a dummy can enable a linear model to capture that true relationship. Similarly, raw data can break down components too small to reflect the overall relationship, for example total baths better reflects consumer preference than a breakdown of every type and location of bathroom. Furthermore, raw data can provide features which in isolation explain less than the ratio of one to the other.
