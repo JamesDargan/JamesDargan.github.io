@@ -10,7 +10,7 @@ Reddit provides a well-documented API for collecting data. I write 2 simple func
 <br>
 
 
-####EDA of Structural Features
+#### EDA of Structural Features
 Before analyzing the text content of these posts, I explore what features describing the structure of the post content can be used in a model in addition to the text. I explore post and comment length, activity, time of posting, and domain of hyperlinked content in the notebook [here](https://github.com/JamesDargan/Reddit_Classification/blob/master/code/EDA_Posts.ipynb).
 
 
@@ -29,9 +29,9 @@ Type of hyperlink content and domain predict subreddit. Image content in posts e
 <img src="assets/domain_links.png?raw=true"/>
 
 
-####EDA of Text
+#### EDA of Text
 Utilizing the nltk library, I tokenize and lemmatize the text content of titles, posts, and comments.
 
-**Insight 3:**
+**Insight 4:**
 We find words such as dice, card, and board which reference concrete objects is associated with /r/boardgames.
 <img src="assets/title_lwords_bar.png?raw=true"/>
