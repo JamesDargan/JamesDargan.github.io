@@ -1,4 +1,4 @@
-## MNIST Digit Classification ([Repo](https://github.com/JamesDargan/MNIST))
+## MNIST Digit Classification ([Repo](https://github.com/JamesDargan/MNIST){:target="\_blank"})
 
 **Project Description:**
 Create a comprehensive walkthrough of creating a Convolutional NN and visualizing layers with the classic MNIST digits dataset on Kaggle. My Kaggle notebook can be found [here](https://www.kaggle.com/jamesd5/cnn-walkthrough).

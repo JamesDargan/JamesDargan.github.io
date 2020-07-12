@@ -65,6 +65,10 @@ I tokenize, lematize, and employ CountVectorizer and TFIDF to prepare my collect
 [NMIST Convolutional NN](pages/MNIST/01_walkthrough.md) <br>
 I create a walkthrough notebook of creating a multilayer convolutional neural network for digit recognition. I demonstrate visualization of network architecture, activation layers on test data, and confusion matrices. I describe each layer added to a predictive model which scores 0.98775 accuracy on the Kaggle test set.
 
+[Empirically Optimizing CNN with Kannada and Arabic Digits](pages/MNIST/02_combine_kannada_arabic.md) <br>
+I combine the Kannada and Arabic handwritten digit datasets and empirically test and optimize each component of a CNN architecture to build a model with 98.692% test accuracy across 20 digit categories. I then explore error introduced by similarities between digits across languages.
+
+<img src="compare_assets/Kannada_digits.png?raw=true"/>
 
 
 ---
@@ -74,8 +78,8 @@ I create a walkthrough notebook of creating a multilayer convolutional neural ne
 [EDA of Weekly Sales](pages/Walmart/01_data_eda.md) <br>
 I explore trends in walmart sales at the store level over time, demonstrating stationarity and identifying good candidates parameters for a SARIMA time series model.
 
-[SARIMA Models]()
-Utilizing 3 stores as case studies, I explore SARIMA model parameters, residual patterns, and overall performance at the individual store level in predicting store weekly sales. 
+[SARIMA Models]() <br>
+Utilizing 3 stores as case studies, I explore SARIMA model parameters, residual patterns, and overall performance at the individual store level in predicting weekly sales.
 
 
 ---
