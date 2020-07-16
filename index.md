@@ -51,11 +51,11 @@ I build a pair of functions to collect post content from Reddit through its API.
 
 
 [Bag-of-Words Models](pages/Reddit/02_models_text_comp.md)<br>
-I tokenize, lematize, and employ CountVectorizer and TFIDF to prepare my collected data. I then use Logistic Regression, Multinomial Naive-Bayes, and Support Vector Classifiers to predict post subreddit with over 90% accuracy. I then compare the accuracy and model optimization computational time for each model with increasing layers of text content.
+I tokenize, lemmatize, and employ CountVectorizer and TFIDF to prepare my collected data. I then use Logistic Regression, Multinomial Naive-Bayes, and Support Vector Classifiers to predict post subreddit with over 90% accuracy. I then compare the accuracy and model optimization computational time for each model with increasing layers of text content.
 
 ---
 
-## Airline Networks Visualization
+## Domestic Flights
 
 
 ---
@@ -68,7 +68,7 @@ I create a walkthrough notebook of creating a multilayer convolutional neural ne
 [Empirically Optimizing CNN with Kannada and Arabic Digits](pages/MNIST/02_combine_kannada_arabic.md) <br>
 I combine the Kannada and Arabic handwritten digit datasets and empirically test and optimize each component of a CNN architecture to build a model with 98.692% test accuracy across 20 digit categories. I then explore error introduced by similarities between digits across languages.
 
-<img src="compare_assets/Kannada_digits.png?raw=true"/>
+<img src="pages/MNIST/compare_assets/Kannada_digits.png?raw=true"/>
 
 
 ---
@@ -78,8 +78,8 @@ I combine the Kannada and Arabic handwritten digit datasets and empirically test
 [EDA of Weekly Sales](pages/Walmart/01_data_eda.md) <br>
 I explore trends in walmart sales at the store level over time, demonstrating stationarity and identifying good candidates parameters for a SARIMA time series model.
 
-[SARIMA Models]() <br>
-Utilizing 3 stores as case studies, I explore SARIMA model parameters, residual patterns, and overall performance at the individual store level in predicting weekly sales.
+[Optimizing a SARIMA Forecast]() <br>
+Utilizing 3 stores as case studies, I explore SARIMA model parameters, residual patterns, and overall performance at the individual store level in predicting weekly sales. I find an optimal model structure for each store to forecast sales with a mean absolute percent error of 2.77, 3.13, and 3.60 respectively. I then limit historical data reach and extend forecast distance to more closely simulate practical business conditions, retaining prediction error within 5%.
 
 
 ---
