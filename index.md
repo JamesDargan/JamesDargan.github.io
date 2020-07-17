@@ -69,7 +69,7 @@ I create a walkthrough notebook on Kaggle that briefly explores the role of each
 [Step-by-Step Optimization of CNN with Kannada and Arabic Digits](pages/MNIST/02_combine_kannada_arabic.md) <br>
 I combine the Kannada and Arabic handwritten digit datasets and empirically test and optimize each component of a CNN architecture to build a model with 98.692% test accuracy across 20 digit categories. I then explore error introduced by similarities between digits across languages.
 
-<img src="pages/MNIST/compare_assets/Kannada_digits.png?raw=true"/>
+<img src="pages/MNIST/compare_assets/kannada_digits.png?raw=true"/>
 
 
 ---
