@@ -5,7 +5,7 @@ I combine the Arabic handwritten digits data with Kannada handwritten digits hos
 <br><br>
 
 **Optimize Convolution Filter Count at 32-64**
-<img src="compare_assets/NN_filter_structure.png?raw=true"/>
+<img src="compare_assets/NN_filter_structures.png?raw=true"/>
 
 **Determine Sufficient Dense Layer Size of 128**
 <img src="compare_assets/NN_dense_size.png?raw=true"/>
@@ -15,10 +15,10 @@ I combine the Arabic handwritten digits data with Kannada handwritten digits hos
 
 
 **Insight 1:**
-Stacking convolution layers and utilizing convolution with stride in place of max pooling do not improve performance. Traditional single-layer convolution of appropriate size with a MaxPooling layer performs sufficient.
+Stacking convolution layers and utilizing convolution with stride in place of max pooling do not improve performance. Traditional single-layer convolution of appropriate size with a MaxPooling layer performs sufficiently well to prefer for reduced complexity.
 
 **Insight 2:**
-About 28% of all prediction errors in my test data due to similarity of handwritten digit to those of the other language. For example, the single greatest error in classifying Arabic digits came from confusion with the Kannada 0, with a total of 19 false predictions from the test data.
+Of all test prediction errors, 28% derive from confusion across language. For example, the single greatest error in classifying Arabic digits came from confusion with the Kannada 0, with a total of 19 false predictions from the test data. Similarly, the non-loop style Arabic 2 was often confused with Kannada 7, illustrated below.
 
 <img src="compare_assets/arab_misclass_as_kan.png?raw=true"/>
 

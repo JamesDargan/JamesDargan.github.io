@@ -1,7 +1,7 @@
 ## MNIST Digit Classification ([Repo](https://github.com/JamesDargan/MNIST){:target="\_blank"})
 
 **Project Description:**
-Create a comprehensive walkthrough of creating a Convolutional NN and visualizing layers with the classic MNIST digits dataset on Kaggle. My Kaggle notebook can be found [here](https://www.kaggle.com/jamesd5/cnn-walkthrough).
+Create a comprehensive walkthrough of creating a Convolutional NN and visualizing layers with the classic MNIST digits dataset on Kaggle. My Kaggle notebook can be found [here](https://www.kaggle.com/jamesd5/cnn-walkthrough){:target="\_blank"}.
 <br><br>
 <img src="assets/raw_digits.png?raw=true"/>
 

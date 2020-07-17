@@ -4,9 +4,6 @@
 After imputing missing values and engineering my desired new features, I proceed with linear methods for predictive modeling. I find minimal benefit from incorporating an L1 or L2 regularization penalty or applying Principal Components.
 <br><br>
 
-**My Project Medium Blogs:**<br>
-[]()<br>
-<br>
 
 
 **Baseline Model 1: OLS on home SF components** <br>

@@ -46,7 +46,7 @@ I build an OLS model on selected and engineered features which delivers an R2 sc
 
 Utilizing Reddit's Pushshift API, I collect posts and comments from the subreddits /r/pcgaming and /r/boardgames. I perform core NLP tasks, EDA of text content, and create a bag-of-words based predictive model to classify new posts with 98% accuracy.
 
-[Data Scrape and EDA](pages/Reddit/01_data_pred_eda.md)<br>
+[Data Scrape and EDA](pages/Reddit/01_data_prep_eda.md)<br>
 I build a pair of functions to collect post content from Reddit through its API. I explore the text content and functional features of subreddit activity.
 
 
@@ -63,9 +63,10 @@ I tokenize, lemmatize, and employ CountVectorizer and TFIDF to prepare my collec
 ## Digit Classification ([Repo](https://github.com/JamesDargan/MNIST){:target="\_blank"})
 
 [NMIST Convolutional NN](pages/MNIST/01_walkthrough.md) <br>
-I create a walkthrough notebook of creating a multilayer convolutional neural network for digit recognition. I demonstrate visualization of network architecture, activation layers on test data, and confusion matrices. I describe each layer added to a predictive model which scores 0.98775 accuracy on the Kaggle test set.
+I create a walkthrough notebook on Kaggle that briefly explores the role of each layer in constructing a multilayer convolutional neural network which scores 0.98775 accuracy on the Kaggle test set. I demonstrate keras tools to view network architecture, visualize activation layers applied on test data at each stage, and generate confusion matrices.
 
-[Empirically Optimizing CNN with Kannada and Arabic Digits](pages/MNIST/02_combine_kannada_arabic.md) <br>
+
+[Step-by-Step Optimization of CNN with Kannada and Arabic Digits](pages/MNIST/02_combine_kannada_arabic.md) <br>
 I combine the Kannada and Arabic handwritten digit datasets and empirically test and optimize each component of a CNN architecture to build a model with 98.692% test accuracy across 20 digit categories. I then explore error introduced by similarities between digits across languages.
 
 <img src="pages/MNIST/compare_assets/Kannada_digits.png?raw=true"/>
@@ -76,10 +77,16 @@ I combine the Kannada and Arabic handwritten digit datasets and empirically test
 ## Walmart Store Sales ([Repo](https://github.com/JamesDargan/Kaggle_Walmart){:target="\_blank"})
 
 [EDA of Weekly Sales](pages/Walmart/01_data_eda.md) <br>
-I explore trends in walmart sales at the store level over time, demonstrating stationarity and identifying good candidates parameters for a SARIMA time series model.
+I explore trends in Walmart sales at the store level over time, demonstrating stationarity and identifying good candidates parameters for a SARIMA time series model.
 
-[Optimizing a SARIMA Forecast]() <br>
+<img src="pages/Walmart/assets/rolling_sales_peak.png?raw=true"/>
+
+
+
+[Optimizing a SARIMA Forecast](pages/Walmart/02_SARIMAX_model.md) <br>
 Utilizing 3 stores as case studies, I explore SARIMA model parameters, residual patterns, and overall performance at the individual store level in predicting weekly sales. I find an optimal model structure for each store to forecast sales with a mean absolute percent error of 2.77, 3.13, and 3.60 respectively. I then limit historical data reach and extend forecast distance to more closely simulate practical business conditions, retaining prediction error within 5%.
+<br><br>
+Utilizing 45 stores, I systematically optimize a SARIMA structure for all stores with adjustments for special-cases. I explore adding exogenous variables such as changes in fuel prices without success. I simulate a real-world business context to evaluate my model and find an average test mean absolute percent error of %.
 
 
 ---

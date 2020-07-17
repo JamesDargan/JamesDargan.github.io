@@ -4,7 +4,9 @@
 Utilizing Reddit's Pushshift API, I scrape reddit posts and comments from two similar subreddits, /r/pcgaming and /r/boardgames, with the goal of utilizing NLP techniques to classify posts into the correct subreddit. I take a bag-of-words approach using both CountVectorizer and TFIDF text-representation methods. I then train three foundational classification models: Logistic Regression, Multinomial Naive-Bayes, and Linear Support Vector Classification.
 <br><br>
 
-#### Summarizing Bag-of-Words Classification Models
+#### Comparing Bag-of-words Classification performance
+The following tables contain 3 columns corresponding to increasing text content included in the pipeline. Title refers to prediction subreddit only with a post title. Next, I add the text from the post body written by the post author. Lastly, I add all comments within 2 nest layers of the original subreddit post.
+
 
 **Comparing 3 Model's Test Accuracy (CVEC):**
 
@@ -24,9 +26,9 @@ Utilizing Reddit's Pushshift API, I scrape reddit posts and comments from two si
 | Lin SVM   |   | 0.8922 | 0.9173       | 0.9802                  |
 
 
-**Insight 1:** TFIDF text representation enables greater accuracy performance with maximum text content included. The CVEC method maxed out about 1.5-2 accuracy points less for Logistic and SVC methods.
+**Insight 1:** TFIDF text representation enables greater accuracy performance with maximum text content included. The CVEC method maxed out about 1.5-2 accuracy points less for Logistic Regression and SVC methods when the pipeline optimization enabled more features and larger n-grams.
 
-**Insight 2:** All 3 common text-classification methods performed similarly, with the greatest performance gap being less than 2 accuracy percentage points within most input setups.  
+**Insight 2:** All 3 common text-classification methods performed similarly, with the greatest performance gap being less than 2 accuracy percentage points within a given level of text content.
 
 #### Comparing Accuracy Gains and Training Time
 
